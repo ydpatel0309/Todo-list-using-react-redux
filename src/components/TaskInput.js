@@ -32,8 +32,8 @@ function TaskInput() {
           onChange={handleInputChange}
         />
        
-      </form>
       <button className="submit-button" type="submit">Add Task</button>
+      </form>
     </div>
     </div>
 
