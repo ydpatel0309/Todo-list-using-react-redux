@@ -6,7 +6,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>To-Do List</h1>
+      <h1>QuadBQuest</h1>
       <TaskInput />
       <TaskList />
     </div>

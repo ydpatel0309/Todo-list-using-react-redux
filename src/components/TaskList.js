@@ -43,9 +43,13 @@ function TaskList() {
               </>
             ) : (
               <>
+              <div className='tasks'>
                 {task.text}
+              </div>
+                <div className="btns">
                 <button className="editbtn" onClick={() => handleEdit(task.id, task.text)}>Edit</button>
                 <button className="deletebtn" onClick={() => handleDelete(task.id)}>Delete</button>
+                </div>
               </>
             )}
           </li>

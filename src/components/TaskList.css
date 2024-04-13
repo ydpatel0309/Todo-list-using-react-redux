@@ -30,6 +30,12 @@ li {
     
 }
 
+.tasks
+{
+    font-size: 20px;
+    margin: 5px;
+    overflow:auto;
+}
 .edit-text
 {
     border: 1px solid #df5e5e;
