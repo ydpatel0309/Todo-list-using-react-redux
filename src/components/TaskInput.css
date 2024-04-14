@@ -1,54 +1,92 @@
 /* Form Container Styles */
 
-.form-outer
-{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.form-ot {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
 }
+
+.form-outer {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ecedf6;
+  border-radius: 20px;
+}
+
 .form-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60%;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+
+
+
+.formfield {
+  box-sizing: border-box;
+  width: 30vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
   
-  .input-field {
-    width: 100%; /* Adjust width to fill container */
-    max-width: 300px; /* Limit maximum width */
-    height: 30px;
-    padding: 8px;
-    margin-bottom: 20px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+}
+
+.submitbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.submit-button {
+  width: 100%;
+  max-width: 120px;
+  height: 40px;
+  background-color: #646ff0;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.submit-button:active {
+  background-color: #003974;
+}
+
+.input {
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  padding: 1em;
+  background-color: #f8f8ff;
+  transition: 300ms ease-in-out;
+  width: 100%;
+  height: 25px;
+  font-size: 2.5vh;
+}
+
+.input:focus {
+  background-color: white;
+  transform: scale(1.05);
+  box-shadow: 13px 13px 100px #969696,
+    -13px -13px 100px #ffffff;
+}
+
+@media screen and (max-width: 600px) 
+{
+  .form-outer {
+    width: 80%;  
   }
-  
-  .input-field:focus {
-    outline: none;
-    border-color: #007bff;
-  }
-  
-  .submit-button {
-    width: 100%; /* Adjust width to fill container */
-    max-width: 120px; /* Limit maximum width */
-    height: 40px;
-    background-color: #007bff;
-    color: white;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-left: 30px;
-    margin-bottom: 20px;
-  }
-  
-  .submit-button:hover {
-    background-color: #0056b3;
-  }
-  
-  .submit-button:active {
-    background-color: #003974;
-  }
-  
+}
